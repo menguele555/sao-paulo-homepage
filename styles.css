@@ -1,0 +1,577 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.utility-header{
+    background: #046B99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 67px;
+    height: 32px;    
+}
+
+.social-media img{
+    width: 25px;
+    height: 25px;
+    margin: 5px 10px;
+}
+
+.buscar{
+    color: #000000;
+    text-decoration: none;
+}
+
+.buscar:hover{
+    color: #ffffff;
+}
+
+.language-icons img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+
+.search-icon{
+    width: 15px;
+    margin: 10px;
+    padding-top: 8px;
+}
+
+.search{
+    margin-left: auto;
+    display: flex;
+}
+
+.menu-header{
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 68px;
+    height: 100px;    
+}
+
+.menu-header img{
+    width: auto;
+    height: 35px;
+    display: block;
+}
+
+.logo-sp img{
+    display: block;
+    width: auto;
+    height: 100px;
+}
+
+.menu-header .culturaEducacao{
+    width: 55px;
+    margin-top: 20px;
+}
+
+.menu-header .esporte{
+    width: 50px; 
+}
+
+.menu-header .transporte{
+    width: 50px;
+}
+
+.menu-header a{
+    color: #373737;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    
+}
+
+.menu-header a:hover {
+    box-shadow: 0 -5px 0px #046B99 inset;
+    padding-bottom: 10px;
+}
+
+.banner{
+    background-image: url("img/cidadeSp.png");
+    background-repeat: no-repeat;
+    width:auto;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: .8s all;
+}
+
+.banner:hover{
+    background-image: url("img/banner-dois.png");
+    opacity: 0.8;
+}
+
+.search-box{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.buscador{
+    width: 500px;
+    height: 30px;
+    box-shadow: 0px 0px 5px black ;
+}
+
+.btn {
+    background: #ffffff;
+    border: none; /* Remove borders */
+    color: #777777; /* White text */
+    padding: 0px 0px; /* Some padding */
+    font-size: 20px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    position: absolute;
+    margin-left: 464px;
+}
+  
+  /* Darker background on mouse-over */
+.btn:hover {
+    color: #000000;
+}
+
+.conteudo{
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content:space-between;
+    background-image: url("img/chaoSpDois.png");
+    /* background-size:auto; */   
+}
+
+.conteudo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    /* border: 1px solid darkred; */
+    box-shadow: 0 4px 6px -1px black;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.ibirapuera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 25px;    
+}
+
+.ibirapuera-img:hover{
+    transition: all 1.1s;
+    transform: scale(1.1);
+}
+
+.liberdade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 25px;
+}
+
+.liberdade-img:hover{
+    transition: all 1.1s;
+    transform: scale(1.1);
+}
+
+.museuDoIpiranga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 25px;
+}
+
+.museuDoIpiranga-img:hover{
+    transition: all 1.1s;
+    transform: scale(1.1);
+}
+
+.link-album {
+    text-decoration: none;
+    color: #046B99;
+}
+
+.link-album:hover, .link-album:focus {
+    text-decoration: underline;
+}
+
+.conteudo h2{
+    font-size: 24px;
+    font-style: italic;
+}
+  
+.conteudo h4{
+    text-align: center;
+    font-style: italic;
+}
+
+.footer-nav{
+    background: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+}
+
+.footer-menu a{
+    margin: 10px;
+    color: #ffffff;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+.spLogotipo{
+    width: 60px;
+    height: auto;
+}
+
+.copyright{
+    background: #ffffff;
+    text-align: center;
+    height: 25px;
+}
+
+.copyright h5{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-top: 6px;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .utility-header{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: auto;
+        height: 20px; 
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+           
+    }
+    
+    .social-media img{
+        width: auto;
+        height: 10px;
+        margin: 5px 5px;
+    }
+    
+    .buscar{
+        color: #000000;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    .language-icons img{
+        width: auto;
+        height: 10px;
+        margin: 5px 5px;   
+    }
+    
+    .search-icon{
+        width: 12px;
+        margin: 5px;
+        padding-top: 10px;
+    }
+
+    .menu-header{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 5px;
+        width: auto;
+        height: 50px;    
+    }
+    
+    .menu-header img{
+        width: auto;
+        height: 15px;
+        display: block;
+    }
+    
+    .menu-header a{
+        color: #373737;
+        text-decoration: none;
+        font-size: 5px;
+    }
+
+    .menu-header a:hover {
+        box-shadow: 0 -2px 0px #046B99 inset;
+        padding-bottom: 10px;
+    }
+    
+    .logo-sp img{
+        width: auto;
+        height: 50px;
+    }
+    
+    .menu-header .culturaEducacao{
+        width: 30px;
+        margin-top: 8px;
+    }
+    
+    .menu-header .esporte{
+        width: 35px; 
+    }
+    
+    .menu-header .transporte{
+        width: 35px;
+    }
+    
+    .menu-header a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) 
+{
+    .utility-header{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: auto;
+        height: 20px; 
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+           
+    }
+    
+    .social-media img{
+        width: auto;
+        height: 10px;
+        margin: 5px 5px;
+    }
+    
+    .buscar{
+        color: #000000;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    .language-icons img{
+        width: auto;
+        height: 10px;
+        margin: 5px 5px;   
+    }
+    
+    .search-icon{
+        width: 12px;
+        margin: 5px;
+        padding-top: 10px;
+    }
+
+    .menu-header{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 5px;
+        width: auto;
+        height: 50px;    
+    }
+    
+    .menu-header img{
+        width: auto;
+        height: 15px;
+        display: block;
+    }
+    
+    .menu-header a{
+        color: #373737;
+        text-decoration: none;
+        font-size: 5px;
+    }
+
+    .menu-header a:hover {
+        box-shadow: 0 -1px 0px #046B99 inset;
+        padding-bottom: 10px;
+    }
+    
+    .logo-sp img{
+        width: auto;
+        height: 50px;
+    }
+    
+    .menu-header .culturaEducacao{
+        width: 30px;
+        margin-top: 8px;
+    }
+    
+    .menu-header .esporte{
+        width: 35px; 
+    }
+    
+    .menu-header .transporte{
+        width: 35px;
+    }
+    
+    .menu-header a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30px;
+    }
+    .banner{
+        background-image: url("img/cidadeSp.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        width:auto;
+        height: 150px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        transition: .8s all;
+    }
+
+    .search-box{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        margin-bottom: 60px;
+    }
+    
+    .buscador{
+        width: 200px;
+        height: auto;
+        box-shadow: 0px 0px 5px black ;
+        font-size: 5px;
+    }
+    .btn {
+        background: #ffffff;
+        border: none; /* Remove borders */
+        color: #777777; /* White text */
+        padding: 0px 0px; /* Some padding */
+        font-size: 5px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+        position: absolute;
+        margin-left: 190px;
+    }
+    .conteudo{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        background-image: url("img/chaoSpDois.png");
+        background-size:contain;
+          
+    }
+    
+    .conteudo img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        /* border: 1px solid darkred; */
+        box-shadow: 0 4px 6px -1px black;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    
+    .ibirapuera {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 50px;
+        
+        
+    }
+    .liberdade{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .museuDoIpiranga{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    
+    .museuDoIpiranga-img:hover{
+        transition: all 1.1s;
+        transform: scale(1.1);
+    }
+    
+    .conteudo h2{
+        font-size: 12px;
+        font-style: italic;
+        margin: 10px 0 0 0;
+    }
+    .footer-nav{
+        background: #373737;
+        display: flex;
+        align-items: end;
+        flex-direction: row;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 15px;
+    }
+    
+    .footer-menu a{
+        font-size: 8px;
+        margin:0;
+        padding: 0;
+        color: #ffffff;
+    }
+    
+    .footer-logo{
+        display: flex;
+    }
+    
+    .spLogotipo{
+        width: 25px;
+        height: auto;
+    }
+    
+    .copyright{
+        background: #ffffff;
+        text-align: center;
+        height: 10px;
+    }
+    
+    .copyright h5{
+        font-size: 5px;
+        margin-top: 0px;
+        margin-bottom: 3px;
+        padding-top: 3px;
+    }  
+    
+      
+    
+}
+
+
+ 
+
+
+
+
+
+

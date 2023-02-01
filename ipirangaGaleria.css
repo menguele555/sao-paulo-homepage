@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(180deg, hsla(199, 95%, 31%, 1) 0%, hsla(199, 78%, 93%, 1) 10%);
+
+}
+
+.utility-header{
+    background: #046B99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 67px;
+    height: 32px;    
+}
+
+.social-media img{
+    width: 25px;
+    height: 25px;
+    margin: 5px 10px;
+}
+
+.buscar{
+    color: #000000;
+    text-decoration: none;
+}
+
+.buscar:hover{
+    color: #ffffff;
+}
+
+.language-icons img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+
+.search-icon{
+    width: 15px;
+    margin: 10px;
+    padding-top: 8px;
+}
+
+.search{
+    margin-left: auto;
+    display: flex;
+}
+
+.menu-header{
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 68px;
+    height: 100px;    
+}
+
+.menu-header img{
+    width: auto;
+    height: 35px;
+    display: block;
+}
+
+.logo-sp img{
+    width: auto;
+    height: 100px;
+}
+
+.menu-header .culturaEducacao{
+    width: 55px;
+    margin-top: 20px;
+}
+
+.menu-header .esporte{
+    width: 50px; 
+}
+
+.menu-header .transporte{
+    width: 50px;
+}
+
+.menu-header a{
+    color: #373737;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+}
+
+.menu-header a:hover {
+    box-shadow: 0 -5px 0px #046B99 inset;
+    padding-bottom: 10px;
+}
+
+.conteudo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.album{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 0px 6px -1px black;
+}
+
+.ipiranga{
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-repeat: repeat;
+    transition: all 1.1s;
+}
+
+.img-um{
+    background-image: url("img/ipiranga-um.jpeg");
+}
+
+.img-dois{
+    background-image: url("img/ipiranga-dois.jpeg");
+}
+
+.img-tres{
+    background-image: url("img/ipiranga-tres.jpeg");
+}
+
+.img-quatro{
+    background-image: url("img/ipiranga-quatro.jpeg");
+}
+
+.img-cinco{
+    background-image: url("img/ipiranga-cinco.jpeg");
+}
+
+.img-seis{
+    background-image: url("img/ipiranga-seis.jpeg");
+}
+
+.img-sete{
+    background-image: url("img/ipiranga-sete.jpeg");
+}
+
+.img-oito{
+    background-image: url("img/ipiranga-oito.jpeg");
+}
+
+
+.album:hover .ipiranga{
+    transform: scale(1.2)
+}
+
+footer{
+    text-align: center;
+}
+
+.voltar{
+    text-decoration:underline;
+    font-size: 20px;
+    color: black;
+}
+
+.album a{
+    display: block;
+}
+
+.footer-nav{
+    background: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+}
+
+.voltar{
+    text-decoration:underline;
+    font-size: 20px;
+    color: black;
+}
+
+.album a{
+    display: block;
+}
+
+.footer-nav{
+    background: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+}
+
+.footer-menu a{
+    margin: 10px;
+    color: #ffffff;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+.spLogotipo{
+    width: 60px;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .utility-header{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: auto;
+        height: 20px; 
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+           
+    }
+    
+    .social-media img{
+        width: auto;
+        height: 10px;
+        margin: 5px 5px;
+    }
+    
+    .buscar{
+        color: #000000;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    .language-icons img{
+        width: auto;
+        height: 10px;
+        margin: 5px 5px;   
+    }
+    
+    .search-icon{
+        width: 12px;
+        margin: 5px;
+        padding-top: 10px;
+    }
+
+    .menu-header{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 5px;
+        width: auto;
+        height: 50px;    
+    }
+    
+    .menu-header img{
+        width: auto;
+        height: 15px;
+        display: block;
+    }
+    
+    .menu-header a{
+        color: #373737;
+        text-decoration: none;
+        font-size: 5px;
+    }
+
+    .menu-header a:hover {
+        box-shadow: 0 -2px 0px #046B99 inset;
+        padding-bottom: 10px;
+    }
+    
+    .logo-sp img{
+        width: auto;
+        height: 50px;
+    }
+    
+    .menu-header .culturaEducacao{
+        width: 30px;
+        margin-top: 8px;
+    }
+    
+    .menu-header .esporte{
+        width: 35px; 
+    }
+    
+    .menu-header .transporte{
+        width: 35px;
+    }
+    
+    .menu-header a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) 
+{   .menu-header a:hover {
+        box-shadow: 0 -1px 0px #046B99 inset;
+        padding-bottom: 10px;
+    }
+    .footer-nav{
+        background: #373737;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 15px;
+    }
+    
+    .footer-menu a{
+        font-size: 8px;
+        margin:0;
+        padding: 0;
+        color: #ffffff;
+    }
+    
+    .footer-logo{
+        display: flex;
+    }
+    
+    .spLogotipo{
+        width: 25px;
+        height: auto;
+    }
+    
+    .copyright{
+        background: #ffffff;
+        text-align: center;
+        height: 10px;
+    }
+    
+    .copyright h5{
+        font-size: 5px;
+        margin-top: 0px;
+        margin-bottom: 3px;
+        padding-top: 3px;
+    }     
+}
+
